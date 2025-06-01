@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.root-container {
+  height: 100vh;
+  width: 40vw;
+  /* border: 1px dashed black; */
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.list-item {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 0.5em 0.5em;
+  margin-bottom: 0px;
+  /* border: 1px dashed blue; */
+  border-radius: 4px;
+  flex-wrap: wrap; /* Good for small screens */
+
+  font-size: 18px;
 }
 
-.App-link {
-  color: #61dafb;
+.actions {
+  display: flex;
+  gap: 8px;
+  /* margin-left: auto; Pushes buttons to the end */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.task {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+
+  /* border: 1px solid green; */
+  width: 250px;
+}
+
+.logo-icon {
+  width:20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+body {
+  background: linear-gradient(to right, #ff5fcf, #feb47b);  /* orange to peach */
+
 }
