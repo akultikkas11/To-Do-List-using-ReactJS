@@ -10,7 +10,7 @@ A lightweight and intuitive **To-Do List** application built using **ReactJS**, 
 - ✅ Add new tasks
 - 🗑️ Delete tasks
 - ✏️ Edit existing tasks
-- ☑️ Mark tasks as completed/incomplete
+- ☑️ Mark tasks as completed
 - 💾 Data persistence using localStorage
 - 🧠 Input validation to prevent empty task entries
 - 🔄 Real-time dynamic rendering
